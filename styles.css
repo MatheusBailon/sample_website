@@ -1,0 +1,13 @@
+body{
+   text-align: center;
+   margin: 0;
+   background: url("Texture-Image.jpg");
+   background-size: repeat;
+}
+header{
+    padding: 20px;
+    background-color: rgb(219, 91, 91);
+}
+.logo{
+    width: 180px;
+}
