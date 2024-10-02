@@ -3,11 +3,34 @@ body{
    margin: 0;
    background: url("Texture-Image.jpg");
    background-size: repeat;
+   font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    padding: 20px;
     background-color: rgb(219, 91, 91);
 }
 .logo{
+    padding: 20px;
     width: 180px;
 }
+p, h1 {
+    background-color: white;
+}
+
+.main-navigation{
+    background-color: black;
+    text-align: left;
+}
+
+.main-navigation a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+}
+
+.main-navigation a:hover{
+    cursor: pointer;
+    background-color: rgb(219, 91, 91);
+    color: black;
+}
+
