@@ -7,30 +7,63 @@ body{
 }
 header{
     background-color: rgb(219, 91, 91);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo{
     padding: 20px;
-    width: 180px;
+    width: 87px;
 }
-p, h1 {
+footer {
     background-color: white;
 }
 
 .main-navigation{
-    background-color: black;
     text-align: left;
 }
 
 .main-navigation a{
     text-decoration: none;
-    color: white;
+    color: rgb(32, 31, 31);
     display: inline-block;
     padding: 15px;
 }
 
 .main-navigation a:hover{
     cursor: pointer;
-    background-color: rgb(219, 91, 91);
+    background-color: rgb(36, 160, 164);
     color: black;
 }
 
+.banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url("Opera_House_and_Harbour_Bridge.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 10px;
+}
+
+.banner-item {
+    background-color: rgb(219, 91, 91);
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner-item:hover{
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
